@@ -38,6 +38,23 @@ window.onload = ()=>{
 
 }
 
+let DARKMODE = false
+
+function darkmode(){
+    if(DARKMODE){
+        document.querySelector('#darkmode').src = 'https://www.flaticon.com/svg/static/icons/svg/42/42011.svg'
+        DARKMODE = false
+        document.body.classList.remove('dark')
+        document.body.classList.add('light')
+    }else{
+        document.querySelector('#darkmode').src = './assets/images/sun.svg'
+        DARKMODE = true
+        document.body.classList.remove('light')
+        document.body.classList.add('dark')
+    }
+
+}
+
 
 function labelChange(span,input){
     

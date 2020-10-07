@@ -2,7 +2,7 @@
     "vendor":"dwrp",
     "name":"DIO-REACT",
     "description": "Digital Innovatio One - Bootcamp React Web Developer",
-    "version":"0.0.8",
+    "version":"0.0.9",
     "author":"https://github.com/DWRP",
     "repository":"https://github.com/DWRP/DIO-REACT",
     "$schema": "http://json-schema.org/draft-07/schema"

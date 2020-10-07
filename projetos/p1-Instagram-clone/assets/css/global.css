@@ -18,6 +18,63 @@ html, body , .container{
     justify-content: center;
     align-items: center;
 }
+.header{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.header button{
+    max-width: 50px;
+    max-height: 50px;
+
+    border: none;
+    background: none;
+}
+
+#darkmode{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.light{
+    transition: 1s background-color;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark{
+    transition: 1s background-color;
+    background-color: rgb(1, 0, 37);
+    color: white;
+}
+
+.dark button{
+    color: #DDD;
+}
+
+.dark .logo{
+    background: url('../images/instagram-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.dark .enter{
+    background-color: #DDD;
+    color: #4e4e4e;
+}
+
+.dark .forget, .dark .no-user{
+    color: #DDD;
+}
+.dark .no-user a{
+    color: #0095f6;
+}
 
 .main{
     width: 100%;
@@ -65,8 +122,6 @@ html, body , .container{
     background-position: 0 -130px;
     height: 51px;
     width: 175px;
-
-    margin-bottom: 40px;
 }
 
 .auth{
