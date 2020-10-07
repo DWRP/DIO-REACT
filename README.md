@@ -23,6 +23,9 @@ _Para entendimento do que se trata, só visualizando o projeto!._
 
 ## Histórico de lançamentos
 
+* 0.0.8
+  * MUDANÇA: Corrigido o `manifest-json` para seguir padrão do `README`
+
 * 0.0.7
   * MUDANÇA: Tentativa FINAL de correção das imagens do `README`
 
