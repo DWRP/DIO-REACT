@@ -17,12 +17,14 @@ Bootcamp da [Digital Innovation One](https://digitalinnovation.one/) sobre conte
   * Situação: `Em desenvolvimento`
   * Como testar: Ao clonar/baixar o projeto, abra no navegador o arquivo index.html, contido em `projetos > p1-Instagram-clone`
 
-<img src="./projetos/p1-Instagram-clone/assets/images/insta-desktop.png" style="display: inline; height: 150px;" />
-<img src="./projetos/p1-Instagram-clone/assets/images/insta-mobile.png" style="display: inline; height: 150px;" />
+<img src="./projetos/p1-Instagram-clone/assets/images/insta-desktop.png" height="150px" /><img src="./projetos/p1-Instagram-clone/assets/images/insta-mobile.png" height="150px" />
 
 _Para entendimento do que se trata, só visualizando o projeto!._
 
 ## Histórico de lançamentos
+
+* 0.0.7
+  * MUDANÇA: Tentativa FINAL de correção das imagens do `README`
 
 * 0.0.6
   * MUDANÇA: Tentativa de correção do `README`
