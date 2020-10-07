@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM - CLONE UI</title>
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <script src="./assets/javascript/script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="carrosel">
+                <div class="slide">
+                    <img 
+                        class="slide_img show"
+                        src="https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg" 
+                        alt="exemple1"
+                    />
+                    <img 
+                        class="slide_img"
+                        src="https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg" 
+                        alt="exemple2"
+                    />
+                    <img 
+                        class="slide_img"
+                        src="https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg" 
+                        alt="exemple3"
+                    />
+                    <img 
+                        class="slide_img"
+                        src="https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg" 
+                        alt="exemple4"
+                    />
+                    <img
+                        class="slide_img"
+                        src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg" 
+                        alt="exemple5"
+                    />
+                </div>
+            </div>
+
+            <div class="auth">
+                <div class="login">
+                    <h1 class="logo"></h1>
+                    <label for="user">
+                        <span id="user-text">Telefone, nome de usuário ou email</span>
+                        <input 
+                            type="text"
+                            aria-label="Telefone, nome de usuário ou email"
+                            onkeyup="labelChange('user-text','user')"
+                            aria-required="true" 
+                            autocapitalize="off" 
+                            autocorrect="off" 
+                            maxlength="75" 
+                            id="user"/>
+                    </label>
+                    <label for="pass">
+                        <span id="user-pass">Senha</span>
+                        <input 
+                            type="password" 
+                            aria-label="Senha"
+                            onkeyup="labelChange('user-pass','pass')"
+                            aria-required="true" 
+                            autocapitalize="off" 
+                            autocorrect="off" 
+                            id="pass"/>
+                    </label>
+                    <button class="enter" disabled>Entrar</button>
+                    <div class="subdiv">
+                        <div class="subdiv-trash"></div>
+                        <p>OU</p>
+                        <div class="subdiv-trash"></div>
+                    </div>
+                    <button class="facebook">
+                        <img src="https://www.flaticon.com/svg/static/icons/svg/124/124010.svg" alt="">
+                        <span>Entrar com o Facebook</span>
+                    </button>
+                    <a href="#0" class="forget">Esqueceu a senha?</a>
+                </div>
+                <div class="no-user">
+                    <p>Não tem uma conta? <a href="#0">Cadastre-se</a></p>
+                </div>
+                <div class="app-opts">
+                    <p>Obtenha o aplicativo</p>
+                    <div class="stores">
+                        <a href="#0">
+                            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_portuguese-brazilian-pt_br.png/68006a2bb372.png" alt="play store">
+                        </a>
+                        <a href="#0">
+                            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_portuguese_brazilian-pt_BR.png/2f2a0c05b2f3.png" alt="google play">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            @ Allright Instagram
+        </footer>
+    </div>
+</body>
+</html>
