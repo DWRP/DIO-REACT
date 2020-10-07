@@ -20,6 +20,9 @@ _Para entendimento do que se trata, só visualizando o projeto!._
 
 ## Histórico de lançamentos
 
+* 0.0.4
+  * ADD: `Manifest-json` create
+
 * 0.0.3
   * ADD: LICENSE
 
